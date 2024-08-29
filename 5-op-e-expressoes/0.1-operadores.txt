@@ -1,0 +1,7 @@
++ = soma
+- = sub
+* = mult
+/ = divisão
+
+% = resto da divisão
+** = elevado ou potência

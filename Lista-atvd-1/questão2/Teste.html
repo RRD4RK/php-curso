@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilo básico */
+        .container {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .output {
+            margin-top: 10px;
+            white-space: pre-line; /* Permite múltiplas linhas */
+        }
+    </style>
+    <title>Caixa de Texto com Repetição</title>
+</head>
+<body>
+    <div class="container">
+        <label for="repetitions">Escolha o número de repetições:</label>
+        <input id="repetitions" type="number" min="1" max="10" list="repetition-list" placeholder="Escolha um número">
+        <datalist id="repetition-list">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </datalist>
+        <!-- Esta área exibiria o texto repetido conforme necessário, mas de forma estática -->
+        <div class="output">
+            <!-- Aqui ficaria o texto repetido, de forma estática -->
+            <p>Escolha um número para ver o texto repetido.</p>
+        </div>
+    </div>
+</body>
+</html>

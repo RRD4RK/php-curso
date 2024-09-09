@@ -1,0 +1,10 @@
+Visibilidade
+
+Temos três formas de Visibilidade:public, protected e private;
+
+public: A propriedade ou método pode ser acessada se qualquer forma;
+
+protected: A propriedade ou método pode ser acessada apenas 
+pela classe de origem ou as que recebem a mesma herança;
+
+private: A propriedade ou método pode ser acessada apenas pela classe que foi criada;
